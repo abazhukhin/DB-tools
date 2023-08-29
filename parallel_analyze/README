@@ -1,0 +1,11 @@
+utility to run the analyze table (or literally any other code) in parallel on table bathes
+batch size is in the code
+
+to-do:
+move the batch size to the command line parameter
+
+requirements:
+go get github.com/lib/pq
+
+how to run:
+go run parallel_analyze.go -host= -user=masteruser -password= -dbname=
